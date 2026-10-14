@@ -1,18 +1,12 @@
 # 🤝 Wefaq (وفاق) | AI-Powered Project Analysis & Team Building Platform
 
-<p align="center">
-  <img src="./screenshots/onboarding.jpg" alt="Wefaq Platform Interface" width="100%">
-</p>
-
-<p align="center">
-  <b>An AI-powered platform for analyzing project ideas, measuring project similarity, and building student teams.</b>
-</p>
+An AI-powered platform for analyzing project ideas, measuring project similarity, and building student teams.
 
 ---
 
 ## 💡 About The Project
 
-**Wefaq (وفاق)** is an intelligent platform designed to empower students and developers to structure, analyze, and refine their technical ideas. By combining workflow automation and large language models (LLMs), Wefaq helps users avoid project duplication, gain deep insights into their proposals, and find the right team members based on complementary skill sets.
+**Wefaq (وفاق)** is an intelligent web-based platform designed to empower students and developers to structure, analyze, and refine their technical ideas. By combining front-end interfaces with workflow automation and large language models (LLMs), Wefaq helps users avoid project duplication, gain deep insights into their proposals, and find the right team members based on complementary skill sets.
 
 ---
 
@@ -28,7 +22,7 @@ The user journey in Wefaq consists of three core stages:
 
 ## ✨ Key Features
 
-- 📝 **Structured Idea Onboarding:** Easy-to-use form collecting key project metrics (Domain, Problem Statement, Solution, Target Audience).
+- 📝 **Structured Idea Onboarding:** Collects key project metrics (Domain, Problem Statement, Solution, Target Audience).
 - 🧠 **Deep AI Idea Analysis:** Evaluates project viability, potential risks, and technical requirements.
 - 🔍 **Similarity Detection:** Compares the idea against database records to prevent redundant project themes.
 - 👥 **Smart Team Matching:** Recommends team roles and skill requirements tailored to the project's scope.
@@ -38,20 +32,17 @@ The user journey in Wefaq consists of three core stages:
 
 ## 🛠️ Tech Stack
 
-- **Front-end:** HTML5, CSS3, JavaScript / React
+- **Front-end:** HTML5, CSS3, JavaScript
 - **Workflow Automation:** [n8n](https://n8n.io/)
 - **AI & NLP:** Google Gemini API
-- **Data & APIs:** SerpAPI, REST Webhooks
+- **APIs & Webhooks:** REST APIs / Webhook Integration
 
 ---
 
-## 📁 Repository Structure
+## 📁 Project Structure
 
 ```text
-├── index.html              # Main web application interface
-├── assets/                 # Styles, icons, and UI resources
-│   ├── css/
-│   └── js/
-├── screenshots/            # UI preview images for documentation
-│   └── onboarding.jpg
-└── README.md               # Project documentation
+.
+├── index.html       # Main web application interface
+├── .gitignore       # Git ignore settings
+└── README.md        # Project documentation
